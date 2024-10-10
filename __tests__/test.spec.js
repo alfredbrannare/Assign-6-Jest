@@ -1,4 +1,4 @@
-const toUpperCase = require("../UpperCaseFunction");
+import { toUpperCase } from '../UpperCaseFunction';
 
 describe("toUpperCase test", () => {
     //Describes what the test is suppoes to do
