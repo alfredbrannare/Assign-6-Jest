@@ -1,10 +1,6 @@
-describe("toUpperCase test", () => {
-    function toUpperCase(test) {
-        const upperText = test.toUpperCase();
-        console.log(upperText);
-        return upperText;
-    }
+const toUpperCase = require("../UpperCaseFunction");
 
+describe("toUpperCase test", () => {
     //Describes what the test is suppoes to do
     it("Hopefully this logs toUpperCase", () => {
         // Track the console.log instead of output
